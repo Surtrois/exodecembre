@@ -1,0 +1,131 @@
+/************************************************************
+ * ATTENTION REGLAGES DE L'INTERFACE GLOBALE.
+ * NE PAS TOUCHER AUX LIGNES CI-DESSOUS
+ * TRAVAILLEZ A PARTIR DE LA LIGNE 27 !!
+ ************************************************************/
+.page{
+    width: 900px;
+    margin:auto;
+}
+.entete{
+    height: 100px;
+}
+.colonne_menu{
+    float:left;
+    width:200px;
+    height:100%;
+}
+.colonne_contenu {
+    margin-left:200px;
+}
+.pieddepage{
+    height:50px;
+}
+
+/************************************************************
+ * SAISISSEZ VOS DECLARATIONS CSS EN-DESSOUS DE CETTE LIGNE
+ ************************************************************/
+body{
+	/* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
+    background-color: mediumpurple; 
+}
+.body{
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.entete{
+    background-color: silver;
+    margin-block-start: 10px;
+}
+.colonnes {
+    background-color: deepskyblue;
+}
+.colonne_menu{
+    background-color: gold;
+}
+.colonne_contenu {
+    background-color: lightcoral;
+    margin: 10px;
+}
+.pieddepage{
+    background-color: darkmagenta;
+    text-align: center;
+    color: greenyellow;
+    line-height: 50px;
+}
+
+
+
+.titre{
+    color: darkgreen;
+    font-size: 20px;
+}
+
+.slogan{
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+}
+h1{
+    color:crimson;
+    background-color: wheat;
+    margin: 10px;
+    margin-bottom: 20px;
+    border: 5px solid yellow;
+}
+h2{
+    color: darkblue;
+    background-color: aqua;
+    font-size: 17px;
+    font-variant: small-caps;
+    margin: 20px;
+}
+strong
+{
+    color: olive;
+    font-weight: normal;
+}
+
+.introduction{
+    font-style: italic;
+    border: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+a{
+    font-weight: bold;
+}
+:hover{
+    color: lightpink;
+    text-decoration: none;
+}
+
+.colonne_menu .colonnes
+{
+background-color: brown;
+}
+
+.colonne_menu ul{
+    margin-inline-start: 0px;
+    margin-inline-start: 0px;
+    text-decoration: none;
+    color: grey;
+}
+
+.colonne_menu li
+{
+    list-style-type: none;
+    background-color: blueviolet;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+
+
+
+
